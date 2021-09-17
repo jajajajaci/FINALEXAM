@@ -1,0 +1,23 @@
+body {
+  background-image: url("../images/brrtbrrt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-opacity-dark {
+  background-color: rgba(124, 178, 250, 0.849);
+  border: solid black 2px;
+}
+
+.bg-opacity-secondary {
+  background-color: rgba(108, 104, 148, 0.74);
+}
+
+.bg-opacity-tan {
+  background-color: rgba(129, 121, 165, 0.822);
+}
+.container {
+  max-width: 960px!important;
+}
+
