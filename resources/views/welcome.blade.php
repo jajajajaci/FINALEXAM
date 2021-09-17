@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Final Exam</title>
+  <title>MIDTERM EXAM</title>
   <link rel="stylesheet" href="css/style.css">
+
   <script src="{{ asset('js/app.js') }}" defer></script>
+
+
    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<br>
-<br>
 <body class="bg-white">
   <div class="container bg-opacity-dark p-3">
     <div class="content border border-dark bg-opacity-tan p-3 my-3 mx-3">
@@ -18,14 +19,15 @@
         <form action="/" method="get">
           @csrf
           <div class="row m-2">
-            <div class="col-sm-12"><label for="value1">City</label></div>
-            
+            <div class="col-sm-6"><label for="value1">City</label></div>
+            <div class="col-sm-6"><label for="value1">Language</label></div>
           </div>
           <div class="row m-2">
-            <div class="col-sm-12"><input type="text" name="q" id="" placeholder="Input City" value=""></div>
-              </div>
-    
-          <button type="submit" class="mt-3 btn btn-info">Submit</button>
+            <div class="col-sm-6"><input type="text" name="q" id="" placeholder="Input City" value=""></div>
+            <div class="col-sm-6"><input type="text" name="language" id="" placeholder="en-us" value="en-us"></div>
+          </div>
+
+          <button type="submit" class="mt-3 btn btn-secondary">Search</button>
         </form>
       </div>
     </div>
